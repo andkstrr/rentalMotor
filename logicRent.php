@@ -33,17 +33,17 @@ class RentalMotor {
                 if ($isMember) {
                         $diskon = $totalHarga * $this->diskonMember;
                         $this->hargaTotal = $totalHarga - $diskon;
-                        return "Pelanggan a/n $this->nama berstatus sebagai member, <br> 
-                        Mendapatkan diskon sebesar 5% <br> 
-                        Jenis Motor yang dirental : Motor $this->jenisMotor <br> 
-                        Lama waktu rental : $this->lamaRental hari <br>
-                        Total harga yang harus dibayarkan : Rp. " . number_format($this->hargaTotal, 0, '', '.');
+                        return "Pelanggan a/n <b> $this->nama </b> berstatus sebagai <b> Member, </b> <br> 
+                        Mendapatkan diskon sebesar <b> 5% </b> <br> 
+                        Jenis Motor yang dirental : <b> Motor $this->jenisMotor </b> <br> 
+                        Lama waktu rental : <b> $this->lamaRental Hari </b> <br>
+                        Total harga yang harus dibayarkan : <b> Rp. " . number_format($this->hargaTotal, 0, '', '.') . "</b>";
                 } else {
                         $this->hargaTotal = $totalHarga;
-                        return "Pelanggan a/n $this->nama tidak berstatus member. <br>
-                        Jenis Motor yang dirental : Motor $this->jenisMotor <br>
-                        Lama waktu rental : $this->lamaRental hari <br>
-                        Total harga yang harus dibayarkan : Rp. " . number_format($this->hargaTotal, 0, '', '.');
+                        return "Pelanggan a/n <b> $this->nama </b> tidak berstatus Member. <br>
+                        Jenis Motor yang dirental : <b> Motor $this->jenisMotor </b> <br>
+                        Lama waktu rental : <b> $this->lamaRental Hari </b> <br>
+                        Total harga yang harus dibayarkan : <b> Rp. " . number_format($this->hargaTotal, 0, '', '.') . "</b>";
                 }
         }
 
