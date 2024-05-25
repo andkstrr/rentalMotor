@@ -37,13 +37,13 @@ class RentalMotor {
                         Mendapatkan diskon sebesar 5% <br> 
                         Jenis Motor yang dirental : Motor $this->jenisMotor <br> 
                         Lama waktu rental : $this->lamaRental hari <br>
-                        Total harga yang harus dibayarkan : " . number_format($this->hargaTotal, 0, '', '.');
+                        Total harga yang harus dibayarkan : Rp. " . number_format($this->hargaTotal, 0, '', '.');
                 } else {
                         $this->hargaTotal = $totalHarga;
                         return "Pelanggan $this->nama tidak berstatus member. <br>
                         Jenis Motor yang dirental : Motor $this->jenisMotor <br>
                         Lama waktu rental $this->lamaRental hari <br>
-                        Total harga yang harus dibayarkan : " . number_format($this->hargaTotal, 0, '', '.');
+                        Total harga yang harus dibayarkan : Rp. " . number_format($this->hargaTotal, 0, '', '.');
                 }
         }
 
