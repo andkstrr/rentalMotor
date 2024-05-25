@@ -7,12 +7,12 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="container mt-2">
+<div class="container mt-4">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <h4 class="text-center mt-3">Rental Motor</h4>
-                <img src="assets/headerRental.jpeg" class="card-img-top" alt="Motor Image">
+                <h4 class="text-center mt-4">Rental Motor</h4>
+                <img src="assets/headerRental.jpeg" class="card-img" alt="Motor Image">
                 <div class="card-body">
                     <form method="POST">
                         <div class="form-group">
