@@ -7,7 +7,7 @@ class RentalMotor {
                 $hargaRental = [
                         'Matic' => 70000,
                         'Manual' => 60000,
-                        'Sport' => 10000,
+                        'Sport' => 100000,
                         'Listrik' => 85000,
                 ],
                 $ppn = 10000,
